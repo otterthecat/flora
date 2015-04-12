@@ -11,16 +11,16 @@ Project inspired by [Interior Light Purse](https://learn.adafruit.com/interior-p
 ## Pin Setup
 
 ### Lux Sensor
-Flora 3.3v -> Lux 3v
-Flora SDA -> Lux SDP
-Flora SCL -> Lux SCL
-Flora GND(next to usb input) -> Lux GND
+- Flora 3.3v -> Lux 3v
+- Flora SDA -> Lux SDP
+- Flora SCL -> Lux SCL
+- Flora GND(next to usb input) -> Lux GND
 
 ### NeoPixel(s)
-Flora VBATT -> NeoPixel (+)
-Flora D6 -> NeoPixel IN (arrow pointing to center)
-Flora GND -> NeoPixel (-)
+- Flora VBATT -> NeoPixel (+)
+- Flora D6 -> NeoPixel IN (arrow pointing to center)
+- Flora GND -> NeoPixel (-)
 
 ### Pull-Up (Velcro) Switch
-Flora D10 -> Soft Side Velcro
-Flora GND (shared with NeoPixel) -> Hook Side Velcro
+- Flora D10 -> Soft Side Velcro
+- Flora GND (shared with NeoPixel) -> Hook Side Velcro
